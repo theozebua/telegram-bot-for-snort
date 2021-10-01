@@ -64,7 +64,7 @@ Look at the chat object and you will find your group chat id
 
 ## Configuration
 
-###### Edit snort configuration
+##### Edit snort configuration
 ```bash
   sudo gedit /etc/snort/snort.conf
 ```
@@ -72,7 +72,7 @@ Search for "ipvar HOME_NET".
 Then change the "any" to your device IP Address.
 Example : ipvar HOME_NET 192.168.1.1
 
-Edit snort debian configuration
+##### Edit snort debian configuration
 ```bash
   sudo gedit /etc/snort/snort.debian.conf
 ```
@@ -80,7 +80,7 @@ Search for "DEBIAN_SNORT_HOME_NET".
 And set your device IP Address.
 Example : DEBIAN_SNORT_HOME_NET="192.168.1.1".
 
-Edit alert-bot.sh file
+##### Edit alert-bot.sh file
 ```bash
   cd telegram-bot-for-snort/
   sudo gedit alert-bot.sh
@@ -101,7 +101,7 @@ You can check your network interface by running this command
 
 ## Usage
 
-#### Open two (2) terminal
+##### Open two (2) terminal
 First terminal
 ```bash
   sudo snort -A console -c /etc/snort/snort.conf -l /var/log/snort/ -i ens33 -d > /home/[username]/logs.txt
