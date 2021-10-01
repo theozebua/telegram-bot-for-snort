@@ -22,7 +22,7 @@ Create telegram's bot with BotFather and get the bot's token.
 And then make a telegram group and make sure you and the bot is inside the group.
 And then get your group chat id.
 How to get your group chat id?
-You can get the list of updates for your bot
+You can get the list of updates for your bot from telegram api :
 ```
   https://api.telegram.org/bot[BotToken]/getUpdates
 ```
