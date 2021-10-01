@@ -16,7 +16,7 @@ Snort Installation
 ```
 
 
-## Bot Telegram
+## Telegram Bot
 
 Create telegram's bot with BotFather and get the bot's token.
 And then make a telegram group and make sure you and the bot is inside the group.
