@@ -64,7 +64,7 @@ Look at the chat object and you will find your group chat id
 
 ## Configuration
 
-Edit snort configuration
+###### Edit snort configuration
 ```bash
   sudo gedit /etc/snort/snort.conf
 ```
