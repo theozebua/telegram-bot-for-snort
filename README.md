@@ -30,7 +30,7 @@ Example
 ```
   https://api.telegram.org/botXXXXXXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/getUpdates
 ```
-Send a random message to your group and then reload the page
+Send a random message to your group and then reload the page.
 Look at the chat object and you will find your group chat id
 ```
   {
