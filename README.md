@@ -101,7 +101,7 @@ You can check your network interface by running this command
 
 ## Usage
 
-Open two (2) terminal.
+### Open two (2) terminal
 First terminal
 ```bash
   sudo snort -A console -c /etc/snort/snort.conf -l /var/log/snort/ -i ens33 -d > /home/[username]/logs.txt
