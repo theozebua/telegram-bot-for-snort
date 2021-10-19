@@ -113,7 +113,7 @@ Go to telegram-bot-for-snort folder and run the program
   ./alert-bot.sh
 ```
 
-And then try to attack your device like ping or something.
+And then try to attack your device like ping or something else.
 Example
 ```bash
   ping 192.168.1.1
